@@ -164,15 +164,48 @@ int main() {
 
     // Q) Without using %, determine if a number is even or odd (use bitwise operator).
 
-    int n = 2;
+    // int n = 2;
 
-    if (n & 1) {
-        printf("%d is odd", n);
-    }
-    else {
-        printf("%d is even", n);
-    }
+    // if (n & 1) {
+    //     printf("%d is odd", n);
+    // }
+    // else {
+    //     printf("%d is even", n);
+    // }
 
+    // Q) Write a program to reverse a 3-digit number using only integer variables.
+
+    // int n = 123, rem;
+
+    // for (int i = 0; i < 3; i++) {
+    //     rem = n % 10;
+    //     n /= 10;
+    //     printf("%d", rem);
+    // }
+
+    // Q) Create a program to read a float salary and increase it by:
+
+        // 20% if salary < 10,000
+
+        // 10% if between 10,000 and 50,000
+
+        // 5% if above 50,000
+
+    // float salary, newSalary = 0;
+
+    // printf("Enter the salary: ");
+    // scanf("%f", &salary);
+
+    // if(salary < 10000) {
+    //     newSalary = salary + ((salary * 20.0) / 100.0);
+    // } 
+    // else if(salary > 10000 && salary < 50000) {
+    //     newSalary = salary + ((salary * 10.0) / 100.0);
+    // }
+    // else if(salary > 50000) {
+    //     newSalary = salary + ((salary * 50.0) / 100.0);
+    // }
+    // printf("Your new salary is: %.2f", newSalary);
 
     return 0;
 }
