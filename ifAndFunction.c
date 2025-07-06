@@ -1,3 +1,13 @@
+/*
+
+First uncomment all the user defined functions and 
+then uncomment the function evoking one by one.!!
+
+*/
+
+
+
+
 #include <stdio.h>
 
 // void greet() {
@@ -33,6 +43,51 @@
 
 // void checkEvenOdd(int number) {
 //     number % 2 == 0 ? printf("Even number") : printf("Odd number");
+// }
+
+// float getPi() {
+//     return 3.14;
+// }
+
+// int add(int a, int b) {
+//     return a + b;
+// }
+
+// float average(float a, float b) {
+//     return (a + b) / 2;
+// }
+
+// int max(int a, int b) {
+//     if(a > b) {
+//         return a;
+//     }
+//     else {
+//         return b;
+//     }
+// }
+
+// int isVowel(int ch) {
+//     switch (ch) {
+//     case 'a':
+//     case 'e':
+//     case 'i':
+//     case 'o':
+//     case 'u':
+//         return 1;
+//         break;
+//     default:
+//         return 0;
+//         break;
+//     }
+// }
+
+// int isLeapYear(int year) {
+//     if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+//         return 1;
+//     }
+//     else {
+//         return 0;
+//     }
 // }
 
 int main() {
@@ -73,9 +128,32 @@ int main() {
 
     // checkEvenOdd(number);
 
-    // Q) Create a function int getFixedNumber() that always returns 10. Print it in main().
+    // Q) Write a function float getPi() that returns the value of pi (3.1416). Use it to calculate area in main.
 
-    // Todo
+    // float pi = getPi();
+    // int radius = 2;
+
+    // printf("Area: %f", pi * radius * radius);
+
+    // Q) Create int add(int a, int b) and return the sum.
+
+    // printf("%d",add(3,3));
+
+    // Q) Create float average(float a, float b) and return average of two numbers.
+
+    // printf("%.3f",average(3.2, 1.8));
+
+    // Q) Write a function int max(int x, int y) that returns the bigger number (use if).
+
+    // printf("Max: %d", max(8,6));
+
+    // Q) Write a function int isVowel(char ch) that returns 1 if vowel, 0 otherwise.
+
+    // printf("%d", isVowel('r'));
+
+    // Q) Create a function int isLeapYear(int year) that returns 1 if it is a leap year, 0 otherwise (use logical operators).
+
+    // printf("%d", isLeapYear(2001));
 
     return 0;
 }
