@@ -75,7 +75,7 @@ int main() {
 
     // Q) Create a function int getFixedNumber() that always returns 10. Print it in main().
 
-    
+    // Todo
 
     return 0;
 }
