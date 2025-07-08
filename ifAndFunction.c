@@ -90,6 +90,42 @@ then uncomment the function evoking one by one.!!
 //     }
 // }
 
+// int checkEligibility(int age, char gender) {
+
+//     if (age >= 18 && ( gender == 'M' || gender == 'F')) {
+//         return 1;
+//     }
+//     else {
+//         return 0;
+//     }
+// }
+
+// int isDivisible(int num) {
+
+//     if(num % 3 == 0 && num % 5 == 0) {
+//         return 1;
+//     }
+//     else {
+//         return 0;
+//     }
+// }
+
+// char getGradeFromMarks(int marks) {
+    
+//     if (marks >= 90) {
+//         return 'A';
+//     }
+//     else if ( marks >= 75) {
+//         return 'B';
+//     }
+//     else if (marks >= 50) {
+//         return 'C';
+//     }
+//     else {
+//         return 'F';
+//     }
+// }
+
 int main() {
 
     // BASICS
@@ -154,6 +190,31 @@ int main() {
     // Q) Create a function int isLeapYear(int year) that returns 1 if it is a leap year, 0 otherwise (use logical operators).
 
     // printf("%d", isLeapYear(2001));
+
+    // Q) int checkEligibility(int age, char gender) – returns 1 if:
+
+        // age >= 18
+
+        // and (gender is ‘M’ or ‘F’)
+
+    // printf("%d",checkEligibility(18, 'M'));
+
+    // Q) int isDivisible(int num) – return 1 if divisible by 3 and 5.
+
+    // printf("%d",isDivisible(45));
+
+    // Q) char getGradeFromMarks(int marks) – return 'A', 'B', 'C', or 'F' based on:
+
+        // 90 = A
+
+        // 75 = B
+
+        // 50 = C
+
+        // else F
+        // (use nested if or switch)
+
+    // printf("%c",getGradeFromMarks(92));
 
     return 0;
 }
