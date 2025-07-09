@@ -126,6 +126,48 @@ then uncomment the function evoking one by one.!!
 //     }
 // }
 
+// int calculator(int a, int b, char op) {
+
+//     switch (op) {
+//         case '+':
+//             return a + b;
+//             break;
+//         case '-':
+//             return a - b;
+//             break;
+//         case '*':
+//             return a * b;
+//             break;
+//         case '/':
+//             if (b == 0) {
+//                 printf("You cannot divide a number by zero!!");
+//                 return 0;
+//             }
+//             else {
+//                 return a / b;
+//             }
+//             break;
+//         default:
+//             printf("Enter a valid choice!");
+//             break;
+//     }
+// }
+
+// int getCategory(int age) {
+//     if (age >= 0 && age <=12) {
+//         printf("You are a child!");
+//     }
+//     else if (age >= 13 && age <=19) {
+//         printf("You are a teen!");
+//     }
+//     else if (age >= 20 && age <=59) {
+//         printf("You are an adult!");
+//     }
+//     else {
+//         printf("You are a senior!");
+//     }
+// }
+
 int main() {
 
     // BASICS
@@ -215,6 +257,33 @@ int main() {
         // (use nested if or switch)
 
     // printf("%c",getGradeFromMarks(92));
+
+    // Q) Write void calculator(int a, int b, char op) to perform +, -, *, / using switch.
+
+    // int a, b, op;
+    // printf("Enter the first number: ");
+    // scanf("%d", &a);
+
+    // printf("Enter the second number: ");
+    // scanf("%d", &b);
+
+    // printf("Enter the operation to do: ");
+    // scanf(" %c", &op);
+
+    // printf("\n%d", calculator(a, b, op));
+
+    // Q) int getCategory(int age) – returns:
+
+        // 1: Child (0–12)
+
+        // 2: Teen (13–19)
+
+        // 3: Adult (20–59)
+
+        // 4: Senior (60+)
+
+    // int age = 60;
+    // getCategory(age);
 
     return 0;
 }
