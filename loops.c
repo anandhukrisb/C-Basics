@@ -34,5 +34,32 @@ int main() {
     //     i++;
     // }
 
+    // Q) Print the sum of first N natural numbers using a while loop.
+
+    // int n, i = 1, sum = 0;
+
+    // printf("Enter a positive number: ");
+    // scanf("%d", &n);
+
+    // while(i <= n) {
+    //     sum += i;
+    //     i++;
+    // }
+
+    // printf("Sum of %d natural numbers is: %d", n, sum);
+
+    // Q) Reverse and print digits of a number using while loop.
+        // Example: input 1234 → output: 4321
+
+    // int n = 123456, rem;
+
+    // while(n != 0) {
+    //     rem = n % 10;
+    //     printf("%d", rem);
+    //     n  /= 10;
+    // }
+
+    
+
     return 0;
 }
