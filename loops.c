@@ -59,7 +59,32 @@ int main() {
     //     n  /= 10;
     // }
 
-    
+    // Q) Print the square of numbers from 1 to 10.
+
+    // for(int i = 1; i <= 10; i++) {
+    //     printf("%d\n", i * i);
+    // }
+
+    // Q) Print the factorial of a number using a for loop.
+
+    // int n = 4, fact = 1;
+
+    // for(int i = 1; i <= n; i++) {
+    //     fact *= i;
+    // }
+    // printf("Factorial of %d is %d.", n, fact);
+
+    // Q) Count the number of digits in a number.
+
+    // int n = 1234, rem;
+
+    // for(;n != 0;) {
+    //     rem = n % 10;
+    //     printf("%d", rem);
+    //     n /= 10;
+    // }
+
+    // Q)
 
     return 0;
 }
