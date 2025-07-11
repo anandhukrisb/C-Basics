@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 int main() {
     
@@ -84,7 +85,65 @@ int main() {
     //     n /= 10;
     // }
 
-    // Q)
+    // Q) Print the Fibonacci series up to N terms.
+
+    // int n = 10, first = 0, second = 1 , next;
+
+    // for(int i = 1; i <= n; i++) {
+    //     printf("%d\n", first); 
+    //     next = first + second;
+    //     first = second;
+    //     second = next;
+    // }
+
+    // Q) Write a program to check if a number is prime using a for loop.
+
+    // int n = 17, isPrime;
+
+    // if (n <= 1) {
+    //     isPrime = 0;
+    // }
+    // else {
+    //     for(int i = 2; i <= sqrt(n); i++) {
+    //         if (n % i == 0) {
+    //             isPrime = 0;
+    //             break;
+    //         }
+    //     }
+    // }
+
+    // if (isPrime) {
+    //     printf("Prime number");
+    // }
+    // else {
+    //     printf("not a prime number");
+    // }
+
+    // Q) Print this pattern using nested for loops:
+        // * * * * *
+        // * * * * *
+        // * * * * *
+    
+    // for(int i = 1; i <= 3; i++) {
+    //     for(int j = 1; j <= 5; j++) {
+    //         printf("* ");
+    //     }
+    //     printf("\n");
+    // }
+
+    // Q) Print a right-angled triangle:
+        // *
+        // * *
+        // * * *
+        // * * * *
+    
+    for(int i = 1; i <= 4; i++) {
+        for(int j = i; j <= i + 1; j++) {
+            printf("* ");
+        }
+        printf("\n");
+    }
+
 
     return 0;
 }
