@@ -1,3 +1,3 @@
-or(int k = 4; k >= i - 1; k--) {
-            printf(" ");
+else if(a[i + 1] < a[i]) {
+            min = a[i];
         }
