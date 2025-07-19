@@ -132,5 +132,42 @@ int main() {
     
     // printf("Second largest element is: %d", a[(sizeof(a)/sizeof(a[0])) - 2]);
 
+    // Q) Reverse the array without using a second array.
+
+    // int a[7] = {1, 2, 3, 4, 5, 6, 7};
+    // int temp;
+    // int n = sizeof(a) / sizeof(a[0]);
+
+    // for(int i = 0; i < n / 2; i++) {
+    //     temp = a[i];
+    //     a[i] = a[(n - 1) - i];
+    //     a[n - 1 - i] = temp;
+    // }
+
+    // printf("Reversed array: ");
+    // for(int i = 0; i < n; i++) {
+    //     printf("%d ", a[i]);
+    // }
+
+    //  Q) Copy one array into another.
+
+    // int a[7] = {1, 2, 3, 4, 5, 6, 7};
+    // int b[7];
+    // int temp;
+
+    // for(int i = 0; i < 7; i++) {
+    //     b[i] = a[i];
+    // }
+
+    // printf("A: ");
+    // for(int i = 0; i < 7; i++) {
+    //     printf("%d ", a[i]);
+    // }
+
+    // printf("\nB: ");
+    // for(int i = 0; i < 7; i++) {
+    //     printf("%d ", b[i]);
+    // }
+
     return 0;
 }
