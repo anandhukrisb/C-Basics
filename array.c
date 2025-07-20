@@ -169,5 +169,45 @@ int main() {
     //     printf("%d ", b[i]);
     // }
 
+    // Q) Sort the array in ascending and descending order (Bubble Sort or Selection Sort).
+
+    // int a[7] = {4, 5, 3, 1, 2, 7, 6};
+    // int temp;
+
+    // for(int i = 0; i < 7; i++) {
+    //     for(int j = 0; j < 7 - i - 1; j++) {
+    //         if(a[j] > a[j + 1]) {
+    //             temp = a[j];
+    //             a[j] = a[j + 1]; 
+    //             a[j + 1] = temp;
+    //         }
+    //     }
+    // }
+
+    // for(int i = 0; i < 7; i++) {
+    //     printf("%d ", a[i]);
+    // }
+
+    // Q) Find the most frequent element in the array.
+
+    // int a[10] = {2, 4, 4, 1, 4, 4, 4, 1, 1, 1};
+    // int mf, most = 0, count;
+
+    // for(int i = 0; i < 10; i++) {
+    //     count = 0;
+    //     for(int j = 0; j < 10; j++) {
+    //         if(a[i] == a[j]) {
+    //             count++;
+    //         }
+    //     }
+    //     if(most < count) {
+    //         most = count;
+    //         mf = a[i];
+    //     }
+    // }
+    // printf("Most frequent element is: %d\n", mf);
+
+
+
     return 0;
 }
