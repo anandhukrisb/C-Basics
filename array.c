@@ -191,7 +191,7 @@ int main() {
     // Q) Find the most frequent element in the array.
 
     // int a[10] = {2, 4, 4, 1, 4, 4, 4, 1, 1, 1};
-    // int mf, most = 0, count;
+    // int mf, count;
 
     // for(int i = 0; i < 10; i++) {
     //     count = 0;
@@ -201,13 +201,63 @@ int main() {
     //         }
     //     }
     //     if(most < count) {
-    //         most = count;
     //         mf = a[i];
     //     }
     // }
     // printf("Most frequent element is: %d\n", mf);
 
+    // Q) Remove all duplicate elements from the array.
 
+    // int a[7] = {2, 1, 1, 2, 2, 4, 5};
+    // int count = 0;
+    // int n = sizeof(a) / sizeof(a[0]);
+
+    // for(int i = 0; i < n; i++) {
+    //     for(int j = i + 1; j < n;) {
+    //         if(a[i] == a[j]) {
+    //             count++;
+    //             for(int k = j + 1; k < n; k++) {
+    //                 a[k - 1] = a[k];
+    //             }
+    //             n--;
+    //         }
+    //         else {
+    //             j++;
+    //         }
+    //     }
+    // }
+
+    // printf("The array without duplication is: ");
+    // for(int i = 0; i <  n; i++) {
+    //     printf(" %d ", a[i]);
+    // }
+
+    // Q) Merge two arrays into one third array.
+
+    int a[4] = {1, 2, 3, 4};
+    int b[3] = {5, 6, 7};
+    int c[8];
+    int na = sizeof(a) / sizeof(a[0]);
+    int nb = sizeof(b) / sizeof(b[0]);
+
+    
+
+    // Q) Count and print how many even and odd numbers are in an array.
+
+    // int a[10] = {1, 2, 3, 4, 2, 3, 6, 2, 63, 6};
+    // int even = 0, odd = 0;
+
+    // for(int i = 0; i < 10; i++) {
+    //     if(a[i] % 2 == 0) {
+    //         even++;
+    //     }
+    //     else {
+    //         odd++;
+    //     }
+    // }
+
+    // printf("Even: %d\n", even);
+    // printf("Odd: %d", odd);
 
     return 0;
 }
