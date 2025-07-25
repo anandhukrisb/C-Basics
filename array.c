@@ -234,13 +234,40 @@ int main() {
 
     // Q) Merge two arrays into one third array.
 
-    int a[4] = {1, 2, 3, 4};
-    int b[3] = {5, 6, 7};
-    int c[8];
-    int na = sizeof(a) / sizeof(a[0]);
-    int nb = sizeof(b) / sizeof(b[0]);
+    // int a[] = {1, 2, 3};
+    // int b[] = {4, 5, 6, 7};
+    // int na = sizeof(a) / sizeof(a[0]);
+    // int nb = sizeof(b) / sizeof(b[0]);
+    // int nc = na + nb;
+    // int c[nc];
 
-    
+    // int i;
+
+    // for(i = 0; i < na; i++) {
+    //     c[i] = a[i];
+    // }
+
+    // for(int j = i; j < nb + i; j++) {
+    //     c[j] = b[j - i];
+    // }
+
+    // printf("A: ");
+    // for(int k = 0; k < na; k++) {
+    //     printf("%d ", a[k]);
+    // }
+    // printf("\n");
+
+    // printf("B: ");
+    // for(int k = 0; k < nb; k++) {
+    //     printf("%d ", b[k]);
+    // }
+    // printf("\n");
+
+    // printf("Merged Array: ");
+    // for(int k = 0; k < nc; k++) {
+    //     printf("%d ", c[k]);
+    // }
+    // printf("\n");
 
     // Q) Count and print how many even and odd numbers are in an array.
 
@@ -258,6 +285,18 @@ int main() {
 
     // printf("Even: %d\n", even);
     // printf("Odd: %d", odd);
+
+    // ADVANCED
+
+    // Q) Shift all elements one position to the left (circular shift).
+
+    int a[] = {1, 2, 3, 4};
+    int na = sizeof(a) / sizeof(a[0]);
+
+    printf("Array: ");
+    for(int i = 0; i < na; i++) {
+        printf("%d ", a[i]);
+    }
 
     return 0;
 }
