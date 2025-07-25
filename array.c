@@ -290,13 +290,95 @@ int main() {
 
     // Q) Shift all elements one position to the left (circular shift).
 
-    int a[] = {1, 2, 3, 4};
-    int na = sizeof(a) / sizeof(a[0]);
+    // int a[] = {1, 2, 3, 4, 5, 6, 7, 8, 9 ,10};
+    // int na = sizeof(a) / sizeof(a[0]);
+    // int first = a[0];
 
-    printf("Array: ");
-    for(int i = 0; i < na; i++) {
-        printf("%d ", a[i]);
+    // printf("Array: ");
+    // for(int i = 0; i < na - 1; i++) {
+    //     a[i] = a[i + 1];
+    // }
+
+    // a[na - 1] = first;
+    // for(int i = 0; i < na; i++) {
+    //     printf("%d ", a[i]);
+    // }
+
+    // Q) Shift all elements one position to the right (circular shift).
+
+    // int a[] = {1, 2, 3, 4, 5, 6, 7, 8, 9 ,10};
+    // int na = sizeof(a) / sizeof(a[0]);
+    // int last = a[na - 1];
+
+    // printf("Array: ");
+    // for(int i = na; i > 0; i--) {
+    //     a[i] = a[i - 1];
+    // }
+
+    // a[0] = last;
+    // for(int i = 0; i < na; i++) {
+    //     printf("%d ", a[i]);
+    // }
+
+    // Q) Check if the array is palindromic (reads same forwards and backwards).
+
+    // char s[] = "malayalam";
+    // int isPal = 1;
+    // int size = (sizeof(s) / sizeof(s[0])) - 1;
+    // char first[(size/2) + 2];
+    // char second[(size/2) + 2];
+
+    // for(int i = 0; i < size / 2; i++) {
+    //     if(s[i] != s[size - 1 - i]) {
+    //         isPal = 0;
+    //     }
+    // }
+
+    // if(isPal)
+    //     printf("Given string is palindrome.");
+    // else 
+    //     printf("Given number is not palindrome.");
+
+    // Q) Check if the array is sorted in ascending or descending order.
+
+    // int a[] = {1, 2, 3, 4, 5};   
+    // int desc = 0, asc = 0;  
+    // int size = sizeof(a) / sizeof(a[0]);
+
+    // for(int i = 0; i < size; i++) {
+    //     for(int j = i + 1; j < size - i - 1; j++) {
+    //         if(a[j] > a[j + 1]) {
+    //             desc = 1;
+    //         }
+    //         else if(a[j] < a[j + 1]) {
+    //             asc = 1;
+    //         }
+    //     }
+    // }
+
+    // if(desc) {
+    //     printf("Given array is in descending order.");
+    // }
+    // else if(asc) {
+    //     printf("Given array is in ascending order.");
+    // }
+
+    // Q) Find the difference between sum of even-position and odd-position elements.
+
+    int a[] = {1, 2, 3, 4, 5, 6};
+    int size = sizeof(a) / sizeof(a[0]);
+    int evenSum = 0, oddSum = 0;
+
+    for(int i = 0; i < size; i++) {
+        if((i + 1) % 2 == 0) {
+            evenSum += a[i];
+        }
+        else if((i + 1) % 2 != 0) {
+            oddSum += a[i];
+        }
     }
+
+    printf("Difference of sum of odd numbers and even numbers is: %d\n", evenSum - oddSum);
 
     return 0;
 }
