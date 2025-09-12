@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <malloc.h>
 
 // void swap(int *a, int *b) {
 //     int temp;
@@ -120,7 +121,20 @@ int main() {
     // printf("%p\n", p);
     // printf("%d", *p);
 
+    // int a = 5;
+    // int *p = &a;
     
+    // printf("%d\n", a);
+
+    // *p = 20;
+    // printf("%d", a);
+
+    // int *p = (int *) malloc(3 * sizeof(int));
+
+
+    // p[0] = 10;
+
+    // printf("%d", p[0]);
 
     return 0;
 }
