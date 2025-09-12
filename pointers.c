@@ -136,6 +136,24 @@ int main() {
 
     // printf("%d", p[0]);
 
+    int n;
+
+    printf("How many numbers do you want to store?");
+    scanf("%d", &n);
+
+    int *num = (int *) malloc(n * sizeof(int));
+
+    printf("Enter %d numbers: \n", n);
+
+    for(int i = 0; i < n; i++) {
+        scanf("%d",&num[i]);
+    }
+    for(int i = 0; i < n; i++) {
+        printf("%d\t",num[i]);
+    }
+
+    free(num);
+
     return 0;
 }
 
