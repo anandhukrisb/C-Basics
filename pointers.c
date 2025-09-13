@@ -136,19 +136,25 @@ int main() {
 
     // printf("%d", p[0]);
 
-    int n;
 
-    printf("How many numbers do you want to store?");
-    scanf("%d", &n);
+    int *num = (int *) malloc(3 * sizeof(int));
 
-    int *num = (int *) malloc(n * sizeof(int));
-
-    printf("Enter %d numbers: \n", n);
-
-    for(int i = 0; i < n; i++) {
+    printf("Enter the numbers: ");
+    for(int i = 0; i < 3; i++) {
         scanf("%d",&num[i]);
     }
-    for(int i = 0; i < n; i++) {
+    printf("Before: ");
+    for(int i = 0; i < 3; i++) {
+        printf("%d\t",num[i]);
+    }
+    
+    num = (int *) realloc(num, 5 * sizeof(int));
+
+    num[3] = 4;
+    num[4] = 5;
+
+    printf("\nAfter: ");
+    for(int i = 0; i < 5; i++) {
         printf("%d\t",num[i]);
     }
 
