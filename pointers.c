@@ -137,28 +137,28 @@ int main() {
     // printf("%d", p[0]);
 
 
-    int *num = (int *) malloc(3 * sizeof(int));
+    // int *num = (int *) malloc(3 * sizeof(int));
 
-    printf("Enter the numbers: ");
-    for(int i = 0; i < 3; i++) {
-        scanf("%d",&num[i]);
-    }
-    printf("Before: ");
-    for(int i = 0; i < 3; i++) {
-        printf("%d\t",num[i]);
-    }
+    // printf("Enter the numbers: ");
+    // for(int i = 0; i < 3; i++) {
+    //     scanf("%d",&num[i]);
+    // }
+    // printf("Before: ");
+    // for(int i = 0; i < 3; i++) {
+    //     printf("%d\t",num[i]);
+    // }
     
-    num = (int *) realloc(num, 5 * sizeof(int));
+    // num = (int *) realloc(num, 5 * sizeof(int));
 
-    num[3] = 4;
-    num[4] = 5;
+    // num[3] = 4;
+    // num[4] = 5;
 
-    printf("\nAfter: ");
-    for(int i = 0; i < 5; i++) {
-        printf("%d\t",num[i]);
-    }
+    // printf("\nAfter: ");
+    // for(int i = 0; i < 5; i++) {
+    //     printf("%d\t",num[i]);
+    // }
 
-    free(num);
+    // free(num);
 
     return 0;
 }
